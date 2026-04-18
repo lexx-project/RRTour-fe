@@ -7,10 +7,12 @@ import { Beranda } from './pages/Beranda';
 import { TentangKami } from './pages/TentangKami';
 import { SemuaPaketTour } from './pages/SemuaPaketTour';
 import { JejakPerjalanan } from './pages/JejakPerjalanan';
+import { ScrollToTop } from './components/ScrollToTop';
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Beranda />} />
         <Route path="/tentang-kami" element={<TentangKami />} />

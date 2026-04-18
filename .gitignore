@@ -18,6 +18,7 @@ build/
 # IDE
 .vscode/
 .idea/
+.codex
 
 # OS
 .DS_Store
